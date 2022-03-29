@@ -1,0 +1,14 @@
+GET http://localhost:3000/books
+###
+DELETE http://localhost:3000/book/100
+###
+PATCH http://localhost:3000/book/99
+Content-Type: application/json
+
+{
+    "title": "HY",
+    "name": "Haroon Younas",
+    "pages": 500
+}
+###
+GET http://localhost:3000/book/13
